@@ -139,13 +139,12 @@ function answer(selection) { // Variable - (selection) wir aus - onclick="answer
 function nextQuestion() {
     currentQuestion++; // Ändert von 0 auf 1!!!
     document.getElementById('next-button').disabled = true; // Der Button wir wieder deaktiviert!!!
-    // document.getElementById('disabled_1').onclick = answer(selection);
-    // document.getElementById('disabled_2').onclick = answer(selection);
-    // document.getElementById('disabled_3').onclick = answer(selection);
-    // document.getElementById('disabled_4').onclick = answer(selection);
+    document.getElementById('disabled_1').onclick = answer(selection);
+    document.getElementById('disabled_2').onclick = answer(selection);
+    document.getElementById('disabled_3').onclick = answer(selection);
+    document.getElementById('disabled_4').onclick = answer(selection);
     resetAnswerButton();
     showQuestion();
-    answer();
 }
 
 function resetAnswerButton() {
