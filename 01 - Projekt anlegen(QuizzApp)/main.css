@@ -39,3 +39,30 @@ body {
 .bg-success, .bg-danger {
     color: white;
 }
+
+/*
+.trophy {
+    height: 100px;
+}
+*/
+
+.tex-center {
+    text-align: center;
+}
+
+.final-headline {
+    font-size: 38px;
+    margin-bottom: 32px;
+}
+
+/*
+.card-img-top {
+    width: 50% !important;
+}
+*/
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
